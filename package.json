@@ -1,0 +1,41 @@
+{
+  "name": "dl-koa-template",
+  "version": "1.0.0",
+  "description": "本地拉取仓库koa模板的npm包",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dlkoa": "bin/index.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "koa",
+    "koa template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.2",
+    "ora": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dLight1996/koa-template-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dLight1996/koa-template-npm/issues"
+  },
+  "homepage": "https://github.com/dLight1996/koa-template-npm#readme"
+}

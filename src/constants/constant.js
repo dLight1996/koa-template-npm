@@ -1,0 +1,1 @@
+export const GIT_REPO = 'dLight1996/koa-template#main'
